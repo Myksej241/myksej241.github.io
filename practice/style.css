@@ -1,0 +1,708 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(bg2.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+.details {
+  margin-top: 3rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.logo{
+  margin-right: 1rem;
+}
+.main-heading1 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 2rem;
+}
+
+.main-heading {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 1rem;
+}
+.img-responsive {
+  max-width: 50% !important;
+}
+.map {
+ max-width: 100% !important;
+ width: 500px;
+ height: 300px;
+}
+
+h1 {
+    font-size: 3rem;
+    color: white;
+}
+.btn {
+    font-weight: 700;
+    border-radius: 300px;
+    text-transform: uppercase;
+}
+
+.btn-primary {
+    background-color: #0CA338;
+    border-color: #0CA338;
+}
+
+.btn-xl {
+    padding: 1rem 2rem;
+}
+.btn-primary:hover {
+    background-color: #07802A;
+    border-color: #07802A;
+    border-width: 5px;
+}
+hr {
+    border-color: #0CA338;
+    border-width: 3px;
+    max-width: 65px;
+}
+.buffer {
+    height: 8rem;
+}
+
+.navbar-nav li a{
+  text-align: center;
+  border-radius:15px;
+  transition:all 0.5s ease-in;
+}
+.navbar-nav li.active a{
+  background:#10C243;
+  color:#fff !important;
+}
+
+.table {
+  text-align: center;
+}
+
+
+
+.container {
+  text-align: center;
+  margin-top: 3rem;
+  background-color: #4ED128;
+  border-radius: 15px;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+
+
+}
+
+img {
+    width: 40px;
+    height: 40px;
+    
+}
+
+
+#firstHeader {
+    font-size: 1.5em;
+    font-family: "Bungee Outline", cursive;
+    letter-spacing: 0.15em;
+    color: grey;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: inline-flex;
+  }
+  
+  
+  .Welcome {
+    animation-name: displaceContent, fadein;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes displaceContent {
+    from {
+      opacity: 0;
+      transform: translateX(0em);
+    }
+    to {
+      opacity: 1;
+      color: rgb(148, 148, 148);
+      transform: translateX(3em);
+    }
+  }
+  
+  .to {
+    animation-name: displaceContent2;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    width: 8em;
+  }
+  
+  @keyframes displaceContent2 {
+    from {
+      opacity: 0;
+      transform: translateY(3em);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0em);
+    }
+  }
+  
+  .the {
+    animation-name: displaceContent3;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes displaceContent3 {
+    from {
+      opacity: 0;
+      transform: translateX(0em);
+    }
+    to {
+      opacity: 0.9;
+      transform: translateX(-3em);
+    }
+  }
+  
+  .Future {
+    animation-name: displaceContent4;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    width: -1000px;
+  }
+  
+  @keyframes displaceContent4 {
+    from {
+      opacity: 0;
+      transform: translate(0em, -3em);
+    }
+    to {
+      opacity: 1;
+      color: rgb(148, 148, 148);
+      transform: translate(-3em, 0em);
+    }
+  }
+  
+  /* Stars changes */
+  
+  @media only screen and (max-width: 1335px) {
+    .Future {
+      animation-name: displaceContent5;
+      animation-duration: 1s;
+      animation-delay: 0s;
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;
+      width: -1000px;
+    }
+  }
+  
+  @keyframes displaceContent5 {
+    from {
+      opacity: 0;
+      transform: translateX(0em);
+    }
+    to {
+      opacity: 1;
+      color: rgb(148, 148, 148);
+      transform: translateX(13em);
+    }
+  }
+  
+  @media only screen and (max-width: 1235px) {
+    .Future {
+      animation-name: displaceContentx;
+      animation-duration: 1s;
+      animation-delay: 0s;
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;
+      width: -1000px;
+    }
+  }
+  
+  @keyframes displaceContentx {
+    from {
+      opacity: 0;
+      transform: translateX(0em);
+    }
+    to {
+      opacity: 1;
+      color: rgb(148, 148, 148);
+      transform: translateX(11em);
+    }
+  }
+  
+  @media only screen and (max-width: 1020px) {
+    .Future {
+      animation-name: displaceContent6;
+      animation-duration: 1s;
+      animation-delay: 0s;
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;
+      width: -1000px;
+    }
+  
+    .the {
+      animation-name: displaceContent7;
+      animation-duration: 1s;
+      animation-delay: 0s;
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;
+      width: -1000px;
+    }
+  }
+  
+  @keyframes displaceContent6 {
+    from {
+      opacity: 0;
+      transform: translateX(0em);
+    }
+    to {
+      opacity: 1;
+      color: rgb(148, 148, 148);
+      transform: translateX(6em);
+    }
+  }
+  
+  @keyframes displaceContent7 {
+    from {
+      opacity: 0;
+      transform: translateX(0em);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(6em);
+    }
+  }
+  
+  @media only screen and (max-width: 860px) {
+    .Future {
+      animation-name: displaceContent8;
+      animation-duration: 1s;
+      animation-delay: 0s;
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;
+      width: -1000px;
+    }
+  
+    .the {
+      animation-name: displaceContent9;
+      animation-duration: 1s;
+      animation-delay: 0s;
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;
+      width: -1000px;
+    }
+    .collapse navbar-collaps {
+      width: max-content;
+    }
+  }
+  
+  @keyframes displaceContent8 {
+    from {
+      opacity: 0;
+      transform: translateX(0em);
+    }
+    to {
+      opacity: 1;
+      color: rgb(148, 148, 148);
+      transform: translateX(3em);
+    }
+  }
+  
+  @keyframes displaceContent9 {
+    from {
+      opacity: 0;
+      transform: translateX(0em);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(-3em);
+    }
+  }
+  
+  @media only screen and (max-width: 650px) {
+    .Future {
+      animation-name: displaceContent10;
+      animation-duration: 1s;
+      animation-delay: 0s;
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;
+      width: -1000px;
+    }
+  
+    .the {
+      animation-name: displaceContent11;
+      animation-duration: 1s;
+      animation-delay: 0s;
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;
+      width: -1000px;
+    }
+    .collapse navbar-collaps {
+      width: max-content;
+    }
+  }
+  
+  @keyframes displaceContent10 {
+    from {
+      opacity: 0;
+      transform: translateX(1em);
+    }
+    to {
+      opacity: 1;
+      color: rgb(148, 148, 148);
+      transform: translateX(-1em);
+    }
+  }
+  
+  @keyframes displaceContent11 {
+    from {
+      opacity: 0;
+      transform: translate(0em, 0em);
+    }
+    to {
+      opacity: 1;
+      transform: translate(5em, -1.2em);
+    }
+  }
+  
+  @keyframes displaceContent12 {
+    from {
+      opacity: 0;
+      transform: translateX(0em);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(-3em);
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .collapse navbar-collaps {
+      width: max-content;
+    }
+  
+    .Welcome {
+      animation-name: displaceContent13;
+      animation-duration: 1s;
+      animation-delay: 0s;
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;
+    }
+  
+    .to {
+      animation-name: displaceContent14;
+      animation-duration: 1s;
+      animation-delay: 0s;
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;
+      width: 8em;
+    }
+  
+    .the {
+      animation-name: displaceContent15;
+      animation-duration: 1s;
+      animation-delay: 0s;
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;
+      width: -1000px;
+    }
+  
+    .Future {
+      animation-name: displaceContent16;
+      animation-duration: 1s;
+      animation-delay: 0s;
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;
+      width: -1000px;
+    }
+  }
+  
+  @keyframes displaceContent13 {
+    from {
+      opacity: 0;
+      transform: translateX(0em);
+    }
+    to {
+      opacity: 1;
+      color: rgb(148, 148, 148);
+      transform: translateX(1em);
+    }
+  }
+  
+  @keyframes displaceContent14 {
+    from {
+      opacity: 0;
+      transform: translateX(0.5em);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(-1.3em);
+    }
+  }
+  
+  @keyframes displaceContent15 {
+    from {
+      opacity: 0;
+      transform: translate(0em, 0em);
+    }
+    to {
+      opacity: 1;
+      transform: translate(4em, -1.2em);
+    }
+  }
+  
+  @keyframes displaceContent16 {
+    from {
+      opacity: 0;
+      transform: translateX(3em);
+    }
+    to {
+      opacity: 1;
+      color: rgb(148, 148, 148);
+      transform: translateX(-1em);
+    }
+  }
+  
+  @media only screen and (max-width: 530px) {
+    .collapse navbar-collaps {
+      width: fit-content;
+    }
+  
+    .Welcome {
+      animation-name: displaceContent17;
+      animation-duration: 1s;
+      animation-delay: 0s;
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;
+    }
+  
+    .to {
+      animation-name: displaceContent18;
+      animation-duration: 1s;
+      animation-delay: 0s;
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;
+      width: 8em;
+    }
+  
+    .the {
+      animation-name: displaceContent19;
+      animation-duration: 1s;
+      animation-delay: 0s;
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;
+      width: -1000px;
+    }
+  
+    .Future {
+      animation-name: displaceContent20;
+      animation-duration: 1s;
+      animation-delay: 0s;
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;
+      width: -1000px;
+    }
+  }
+  
+  @keyframes displaceContent17 {
+    from {
+      opacity: 0;
+      transform: translateX(0em);
+    }
+    to {
+      opacity: 1;
+      color: rgb(148, 148, 148);
+      transform: translateX(1em);
+    }
+  }
+  
+  @keyframes displaceContent18 {
+    from {
+      opacity: 0;
+      transform: translateX(0.5em);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(-1.3em);
+    }
+  }
+  
+  @keyframes displaceContent19 {
+    from {
+      opacity: 0;
+      transform: translate(0em, 0em);
+    }
+    to {
+      opacity: 1;
+      transform: translate(4em, -1.2em);
+    }
+  }
+  
+  @keyframes displaceContent20 {
+    from {
+      opacity: 0;
+      transform: translateX(3em);
+    }
+    to {
+      opacity: 1;
+      color: rgb(148, 148, 148);
+      transform: translateX(-1em);
+    }
+  }
+  
+  /* Footer part */
+  
+  .info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2c3e50;
+    font-family: "Asap", sans-serif;
+    font-size: 35px;
+    margin-top: 200px;
+    margin-left: -650px;
+    text-decoration: none !important;
+  }
+  
+  @media only screen and (max-width: 1650px) {
+    .info {
+      flex-direction: column;
+      margin-left: 0px;
+    }
+  }
+  
+  .info1 {
+    border: 1px solid red;
+    border-width: 3px;
+    border-radius: 50%;
+    margin-right: 20px;
+    border-right: none;
+    padding: 20px;
+    color: inherit;
+    text-decoration: inherit;
+  }
+  
+  .info1:hover {
+    color: whitesmoke;
+    border-color: #c31432;
+    border-width: 8px;
+    padding: 25px;
+    background: linear-gradient(
+      -45deg,
+      #bdc3c7,
+      #2c3e50,
+      #c33764,
+      #1d2671,
+      #141e30,
+      #6dd5ed
+    );
+    background-size: 400% 400%;
+    animation: backgroundChange 15s ease infinite, borderSpin 10s ease infinite;
+    text-decoration: none;
+  }
+  
+  .info2 {
+    padding: 2px;
+    border: 1px solid red;
+    border-width: 3px;
+    border-radius: 50%;
+    border-left: none;
+    border-right: none;
+    padding: 20px;
+    color: inherit;
+    text-decoration: inherit;
+  }
+  
+  .info2:hover {
+    color: whitesmoke;
+    border-color: #c31432;
+    border-width: 8px;
+    padding: 25px;
+    background: linear-gradient(
+      -45deg,
+      #bdc3c7,
+      #2c3e50,
+      #c33764,
+      #1d2671,
+      #141e30,
+      #6dd5ed
+    );
+    background-size: 400% 400%;
+    animation: backgroundChange 15s ease infinite, borderSpin 10s ease infinite;
+    text-decoration: none;
+  }
+  
+  .info3 {
+    padding: 2px;
+    border: 1px solid red;
+    border-width: 3px;
+    border-left: none;
+    border-radius: 50%;
+    margin-left: 20px;
+    padding: 20px;
+    color: inherit;
+    text-decoration: inherit;
+  }
+  
+  .info3:hover {
+    color: whitesmoke;
+    border-color: #c31432;
+    border-width: 8px;
+    padding: 25px;
+    background: linear-gradient(
+      -45deg,
+      #bdc3c7,
+      #2c3e50,
+      #c33764,
+      #1d2671,
+      #141e30,
+      #6dd5ed
+    );
+    background-size: 400% 400%;
+    animation: backgroundChange 15s ease infinite, borderSpin 10s ease infinite;
+    text-decoration: none;
+  }
+  
+  /* Info animations */
+  
+  @keyframes backgroundChange {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  @keyframes borderSpin {
+    0% {
+      border-color: #c31432;
+    }
+    50% {
+      border-position: 100% 50%;
+      border-color: #240b36;
+    }
+    100% {
+      border-position: 0% 50%;
+      border-color: #240b36;
+    }
+  }
